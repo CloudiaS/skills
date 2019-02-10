@@ -17,6 +17,12 @@ Then you need to go to the settings of your bot on Recast.ai and change the fiel
 
 ## Requirements
 
+## Run locally with Docker
+
+```bash
+docker run -d -p 12345:5000 -e OPENWEATHER_TOKEN=<YOUR_OPENWEATHER_API_KEY> claudiafritzler/skills
+```
+
 #### Node version
 
 v6.0 or higher required
